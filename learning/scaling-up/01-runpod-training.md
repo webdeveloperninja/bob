@@ -112,3 +112,7 @@ Prepare a representative dataset and test on genuinely held-out examples. Repeat
 Before a rental, decide the question, maximum runtime, checkpoint interval, and success criterion. Estimate expense using the console's current compute rate multiplied by runtime, plus storage and applicable transfer charges. Confirm the checkpoint can be restored, copy it off the Pod, then stop or terminate the resources you no longer need. Retained storage can continue to have charges.
 
 **Checkpoint question:** if the machine disappears midway through the run, which file on which independent storage lets you continue?
+
+## Compare hardware before renting
+
+The [hardware guide](05-choosing-runpod-hardware.md) separates full training from QLoRA and serving. An H100 is not required for the preset named `h100.json`; start with the least costly candidate that meets your measured experiment needs.

@@ -85,3 +85,7 @@ Test at concurrency 1, then a small higher value, then increase until latency or
 BF16/FP16 inference and quantization can reduce some memory costs, but support and quality depend on the hardware, model, and runtime. Check outputs and task metrics after changing dtype or quantization. A smaller artifact is not proof that a deployment is faster.
 
 **Performance exercise:** decide whether your bottleneck is repeated model loading, prompt processing, per-token generation, queueing, or network transfer before selecting an optimization.
+
+## Choose hardware and reduce cost
+
+Continue with [the hardware-selection tables](05-choosing-runpod-hardware.md) and [lower-cost inference guide](06-lower-cost-inference.md) for concrete GPU starting points and a process for preserving quality while reducing resource use.

@@ -43,4 +43,4 @@ Each chapter ends with a few self-check questions and short answer hints. Try an
 
 ## Continue with Scaling Up
 
-Read [Scaling Up — from a local experiment to a model service](scaling-up/README.md) for four practical pages on RunPod and bigger models, saving/recovering weights, efficient inference, and multi-tenant architecture. Working Bob commands are separated from proposed production features.
+Read [Scaling Up — from a local experiment to a model service](scaling-up/README.md) for six practical pages on RunPod and bigger models, saving/recovering weights, efficient inference, multi-tenant architecture, GPU selection, and lower-cost serving. Working Bob commands are separated from proposed production features.

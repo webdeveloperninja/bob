@@ -12,6 +12,8 @@ This section connects those jobs without assuming you already know cloud infrast
 | [02 — Save, package, and recover weights](02-checkpoints-and-releases.md) | Distinguish resume checkpoints from inference artifacts, back up files, verify restores, and version releases |
 | [03 — Efficient inference](03-efficient-inference.md) | Load once, batch requests, understand KV caching, and move toward a supported serving engine |
 | [04 — Multi-tenant serving](04-multi-tenant-serving.md) | Share GPU capacity while separating identity, data, quotas, model versions, and request state |
+| [05 — Choosing RunPod hardware](05-choosing-runpod-hardware.md) | GPU/model-size tables for inference, full training, and QLoRA; weights and cache estimates |
+| [06 — Good inference on a smaller budget](06-lower-cost-inference.md) | Quantization, smaller models, context limits, batching, and quality-versus-cost evaluation |
 
 Read them in order. Each is roughly a 15–25 minute first pass; hands-on work takes longer.
 
