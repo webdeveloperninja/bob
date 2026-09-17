@@ -1,0 +1,12 @@
+{
+  "context_length": 256,
+  "width": 384,
+  "layers": 6,
+  "heads": 6,
+  "batch_size": 64,
+  "steps": 3000,
+  "learning_rate": 0.0003,
+  "eval_every": 100,
+  "eval_batches": 20,
+  "seed": 42
+}

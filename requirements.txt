@@ -1,0 +1,7 @@
+torch>=2.6,<3
+datasets>=3.6,<5
+numpy>=1.26,<3
+pandas>=2.2,<4
+pyarrow>=18,<26
+huggingface-hub>=0.30,<2
+requests>=2.32,<3
