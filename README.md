@@ -6,7 +6,7 @@ This is a learning project: the local model has about 875,000 parameters. Expect
 
 ## Learn the concepts
 
-Start with the [learning library](learning/README.md) for a guided explanation of the math, training loop, attention, and model architecture. It includes an encoder–decoder build plan and an eight-stage study guide with resources for someone who has taken Calculus 1. This main README remains the command reference.
+Start with the [learning library](learning/README.md) for a guided explanation of the math, training loop, attention, and model architecture. It includes an encoder–decoder build plan and an eight-stage study guide with resources for someone who has taken Calculus 1. This main README remains the command reference. Continue with [Scaling Up](learning/scaling-up/README.md) for RunPod training, checkpoint releases, efficient inference, and multi-tenant serving design.
 
 ## Ready to try in this folder
 

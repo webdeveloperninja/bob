@@ -40,3 +40,7 @@ During generation, replace the loss/optimizer branch with “sample a byte, appe
 You should be able to explain why the model cannot see future answers, why a lower loss can coexist with gibberish, what a checkpoint contains, and how cross-attention differs from self-attention. You should also be able to trace a batch's dimensions without multiplying every matrix by hand.
 
 Each chapter ends with a few self-check questions and short answer hints. Try answering before reading the hints. Keep an experiment notebook: a plain Markdown file is enough.
+
+## Continue with Scaling Up
+
+Read [Scaling Up — from a local experiment to a model service](scaling-up/README.md) for four practical pages on RunPod and bigger models, saving/recovering weights, efficient inference, and multi-tenant architecture. Working Bob commands are separated from proposed production features.
